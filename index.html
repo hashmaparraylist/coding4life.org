@@ -1,0 +1,58 @@
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/victoria.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>西门居</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-lg-6 col-lg-offset-3">
+
+        <!-- navi -->
+        <div class="row w">
+          <div class="col-md-4">
+            <ul class="nav nav-tabs nav-stacked" id="navi">
+              <img class="img-responsive" src="./img/avater.jpg" alt="">
+              <li class="active"><a href="#about">关于</a></li>
+              <li><a href="#">资料</a></li>
+              <li><a href="#">履历</a></li>
+              <li><a href="#">联系</a></li>
+            </ul>
+          </div>
+          <!-- Content -->
+          <div class="col-md-8">
+            <!-- Home -->
+            <div class="tab-content" id=”about">
+              <h3>Victoria Wallberg</h3>
+              <h5>Web Designer</h5>
+              <hr>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+              <p>Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+              <p class="pull-right red"><i class="fa fa-heart"></i></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+      $('#navi a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })  
+    </script> 
+  </body>
+</html>
