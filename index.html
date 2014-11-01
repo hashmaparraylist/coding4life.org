@@ -16,31 +16,77 @@
   </head>
   <body>
     <div class="container">
-      <div class="col-lg-6 col-lg-offset-3">
-
+      <div class="col-lg-8 col-lg-offset-2">
         <div class="row w">
+
           <!-- navi -->
           <div class="col-md-4">
             <ul class="nav nav-tabs nav-stacked" id="navi">
               <img class="img-responsive" src="assets/img/avater.jpg" alt="">
               <li class="active"><a href="#about">关于</a></li>
-              <li><a href="#">资料</a></li>
-              <li><a href="#">履历</a></li>
-              <li><a href="#">联系</a></li>
+              <!--
+              <li><a href="#profile">履历</a></li>
+              <li><a href="#portfolio">展示</a></li>
+              -->
+              <li><a href="#contact">联系</a></li>
             </ul>
           </div>
           <!-- Content -->
           <div class="col-md-8">
-            <!-- About Me -->
-            <div class="tab-content" id=”about">
-              <h3</h3>
-              <h5></h5>
-              <hr />
-              <p></p>
-              <p>Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+            <div class="tab-content">
+
+              <!-- ===== About Me ====== -->
+              <div class="tab-pane active" id="about">
+                <h3>瞿盛</h3>
+                <h5>软件工程师</h5>
+                <hr />
+                <p></p>
+                <p>从业10余年，熟悉Java，.NET等开发环境</p>
+              </div>
+
+              <!-- ===== 履历 ===== -->
+              <div class="tab-pane" id="profile">
+                <h4><i class="icon-briefcase"></i>工作经历</h4>
+                <p class="sm">
+                  <grey>上海求步申亚</grey> | 2009.10 - 至今.<br/>
+                  <grey>其他</grey> | 2003.7 - 2009.9.<br/>
+                </p>
+              
+                <h4><i class="icon-file-text-alt"></i>教育</h4>
+                <p class="sm">
+                  <grey>计算机系</grey> | 华东师范大学<br/>
+                </p>
+              </div>
+
+              <!-- ===== 联络 ===== -->
+              <div class="tab-pane" id="contact">
+                <h4>联系我</h4>
+                <hr>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p class="sm">
+                      <i class="fa fa-globe"></i> - wwww.coding4life.org<br/>
+                      <i class="fa fa-envelope"></i> - sebastianqu@gmail.com
+                    </p>
+                  </div>
+                </div><!-- row -->
+
+                <h4>社交网络</h4>
+                <hr>
+                <div class="row">
+                  <div class="col-xs-6">
+                    <p class="sm">
+                      <a href="http://www.weibo.com/hashmaparraylist"><p class="fa fa-weibo fa-4x"></p></a>&nbsp;
+                      <a href="https://github.com/hashmaparraylist"><p class="fa fa-github fa-4x"></p></a>&nbsp;
+                      <a href="https://blog.coding4life.org"><p class="fa fa-wordpress fa-4x"></p></a>
+                    </p>
+                  </div><!-- col-xs-6 -->
+                </div><!-- row -->
+              </div><!-- Tab Contact -->
+
             </div>
           </div>
-
+          <!-- ===== Conetent End ===== -->
         </div>
       </div>
     </div>
